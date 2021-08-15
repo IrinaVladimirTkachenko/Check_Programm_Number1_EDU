@@ -1,0 +1,17 @@
+Проверка работоспособности поиска (функции search4letters) - 3.
+Шаги: 
+1. Ввести в графу Phrase фразу Life, the universe, and everything. 
+2. В графе Letters ввести буквы - xyz.
+3. Нажать кнопку Do it!
+ 4. Попасть на вторую веб-страницу (http://127.0.0.1:5000/search4).
+ Ожидаемый результат:
+ Выходит надпись: 
+ You submited the following data:
+
+Phrase:	Life, the universe, and everything
+Letters:	xyz
+
+Ниже: 
+When "Life, the universe, and everything" is search for " xyz", the following results are returned:
+
+{'y'}

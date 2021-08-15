@@ -1,0 +1,17 @@
+Проверка работоспособности поиска (функции search4letters) - 7.
+Шаги: 
+1. Ввести в графу Phrase - table7. 
+2. Ввести в графу Letters -  jfsyil7.
+3. Нажать кнопку Do it!
+ 4. Попасть на вторую веб-страницу (http://127.0.0.1:5000/search4).
+ Ожидаемый результат:
+ Выходит надпись: 
+ You submited the following data:
+
+Phrase:	table7
+Letters:	jfsyil7
+
+Ниже: 
+When "table7" is search for " jfsyil7", the following results are returned:
+
+{'l', '7'}

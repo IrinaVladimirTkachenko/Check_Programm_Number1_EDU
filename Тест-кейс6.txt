@@ -1,0 +1,17 @@
+Проверка работоспособности поиска (функции search4letters) - 5.
+Шаги: 
+1. Оставить пустой графу Phrase. 
+2. В графу Letters ничего не вводим (остаются буквы по умолчанию - aeiou).
+3. Нажать кнопку Do it!
+ 4. Попасть на вторую веб-страницу (http://127.0.0.1:5000/search4).
+ Ожидаемый результат:
+ Выходит надпись: 
+ You submited the following data:
+
+Phrase:	
+Letters:	aeiou
+
+Ниже: 
+When "" is search for " aeiou", the following results are returned:
+
+set()

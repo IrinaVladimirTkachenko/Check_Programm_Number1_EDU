@@ -1,0 +1,17 @@
+Проверка работоспособности поиска (функции search4letters) - 6.
+Шаги: 
+1. Оставить пустой графу Phrase. 
+2. Из графы Letters удаляем все буквы, ничего не вводим.
+3. Нажать кнопку Do it!
+ 4. Попасть на вторую веб-страницу (http://127.0.0.1:5000/search4).
+ Ожидаемый результат:
+ Выходит надпись: 
+ You submited the following data:
+
+Phrase:	
+Letters:	
+
+Ниже: 
+When "" is search for " ", the following results are returned:
+
+set()

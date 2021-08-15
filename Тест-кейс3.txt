@@ -1,0 +1,17 @@
+Проверка работоспособности поиска (функции search4letters) - 2.
+Шаги: 
+1. Ввести в графу Phrase фразу This is a test of the posting capability. 
+2. В графе Letters оставить буквы, которые там стоят по умолчанию (aeiou).
+3. Нажать кнопку Do it!
+ 4. Попасть на вторую веб-страницу (http://127.0.0.1:5000/search4).
+ Ожидаемый результат:
+ Выходит надпись: 
+ You submited the following data:
+
+Phrase:	This is a test of the posting capability
+Letters:	aeiou
+
+Ниже: 
+When "This is a test of the posting capability" is search for " aeiou", the following results are returned:
+
+{'e', 'a', 'i', 'o'}

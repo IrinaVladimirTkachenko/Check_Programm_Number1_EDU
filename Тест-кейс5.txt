@@ -1,0 +1,17 @@
+Проверка работоспособности поиска (функции search4letters) - 4.
+Шаги: 
+1. Ввести в графу Phrase слово hitch-hiker. 
+2. В графе Letters ввести буквы - mnopq.
+3. Нажать кнопку Do it!
+ 4. Попасть на вторую веб-страницу (http://127.0.0.1:5000/search4).
+ Ожидаемый результат:
+ Выходит надпись: 
+ You submited the following data:
+
+Phrase:	hitch-hiker
+Letters:	mnopq
+
+Ниже: 
+When "hitch-hiker" is search for " mnopq", the following results are returned:
+
+set()
